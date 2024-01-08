@@ -5,30 +5,31 @@
 }
 
 .banner {
-
-
     background-image: url('/img/BannerImage.png');
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    background-size: cover;
+    border: 2px solid black;
+    height: 100%;
     width: 1320px;
     border-radius: 16px;
     margin: 50px auto;
-
-
 }
+
 
 .banner_inside {
     color: white;
     text-align: center;
-
+    padding: 200px 400px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 200px;
+    border-radius: 16px;
 
 
 }
 
 .banner_inside>.newyr {
-    /* margin-top: 250px; */
-    /* font-size: 20px; */
+
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -47,7 +48,7 @@
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 .section1 {
@@ -102,11 +103,15 @@
     background-position: center;
     width: 1320px;
     height: 600px;
+    display: flex;
+
+
 }
 
 .inside_section2 {
     padding: 100px 100px;
-
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 400px;
 }
 
 .welcome {
@@ -151,6 +156,13 @@
     padding: 10px 20px;
     color: #070211;
     transition: 1s;
+
+}
+
+.nobo {
+    padding-top: 80px;
+    width: 319.83px;
+    height: 464.662px;
 
 }
 
@@ -208,7 +220,7 @@
     /* justify-content: space-between; */
     display: flex;
     gap: 70px;
-    padding: 50px 200px;
+    padding: 20px 200px;
     line-height: 20px;
 }
 
@@ -232,7 +244,8 @@
     font-weight: 500;
 
 }
-.smilingimg{
+
+.smilingimg {
     /* background-image: url("/img/Group44.png");
     background-size: 170%;
     background-repeat: no-repeat;
@@ -241,7 +254,8 @@
     border-radius: 463px;
     border: 15px solid #F00;
 }
-.smilingimg> img{
+
+.smilingimg>img {
     height: 90%;
     padding-top: 20px;
     padding-left: 10px;
@@ -265,4 +279,45 @@
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+.section5{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.inside_section5{
+    text-align: center;
+}
+
+.functionl {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+
+}
+
+.holiday {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.textt {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    padding: 0px 270px;
+
 }
