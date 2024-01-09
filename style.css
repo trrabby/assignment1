@@ -346,10 +346,6 @@
 
 }
 
-.inside_section6 {
-    /* display: flex; */
-
-}
 
 .box {
     position: absolute;
@@ -559,7 +555,7 @@ input {
 }
 
 .firstfootertext {
-    olor: #FFF;
+    color: #FFF;
 
     font-family: Inter;
     font-size: 24px;
