@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -44,11 +47,12 @@
 
     text-align: center;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
     /* margin-top: 200px; */
+    padding-top: 20px;
 }
 
 .section1 {
@@ -75,7 +79,8 @@
     text-align: center;
     font-family: Inter;
     font-size: 24px;
-
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-weight: 500;
 
 }
@@ -92,8 +97,10 @@
 }
 
 .holidayimg {
-    /* height: 500px; */
+    height: 500px;
     margin-top: 30px;
+    width: 802.9px;
+    padding-top: 10px;
 }
 
 .section2 {
@@ -116,7 +123,7 @@
 
 .welcome {
     color: #FFF;
-
+    padding-bottom: 20px;
     font-family: Merriweather;
     font-size: 64px;
     font-style: normal;
@@ -129,7 +136,7 @@
 
 .welcometext {
     color: rgba(255, 255, 255, 0.80);
-
+    padding-bottom: 20px;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -191,6 +198,9 @@
     /* border: 2px solid black; */
 }
 
+.inside_section3>p{
+    padding-bottom: 20px;
+}
 .red {
     color: red;
 }
@@ -233,15 +243,20 @@
     font-weight: 400;
     line-height: 32px;
     margin-top: 100px;
+    
+}
+.bestOffer>p{
+    padding-bottom: 10px;
 }
 
 .newbest {
     color: #F00;
-
+    font-weight: bold;
     font-family: Inter;
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: 500;
+    
 
 }
 
@@ -262,15 +277,22 @@
 
     width: 364.844px;
     height: 364.844px;
-    
+
     padding-top: 40px;
     padding-left: 30px;
-   
+
+}
+
+.newbestt{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .happ {
     width: 140px;
     height: 140px;
+    padding-top: 30px;
 }
 
 .Commingsoon {
@@ -302,6 +324,10 @@
 
 .inside_section5 {
     text-align: center;
+}
+
+.inside_section5>p{
+    padding-bottom: 15px;
 }
 
 .functionl {
@@ -395,6 +421,9 @@
     width: 1320px;
     margin-bottom: 30px;
 }
+.caption>p{
+    padding-bottom: 15px;
+}
 
 .heading {
     color: #F00;
@@ -458,7 +487,7 @@ img {
     width: 1320px;
     height: 616px;
     background-color: rgb(255, 246, 234);
-    margin: 120px auto;
+    margin: 140px auto;
 
 }
 
@@ -466,7 +495,9 @@ img {
     display: grid;
     /* padding: 150px 200px; */
     justify-content: center;
+    align-items: center;
     /* align-items: center; */
+    
 }
 
 .email {
@@ -474,11 +505,13 @@ img {
     height: 150px;
     text-align: center;
     padding: 50px 0px 0px 400px;
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .subscribe {
     color: #070211;
-
+    padding-bottom: 30px;
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
@@ -497,6 +530,7 @@ img {
     font-weight: 400;
     line-height: 32px;
     width: 896px;
+    padding-bottom: 30px;
 }
 
 .user {
@@ -504,14 +538,16 @@ img {
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     background: #FFF;
-    width: 648px;
+    width: 434px;
     height: 72px;
     border: none;
+    font-size: 20px;
 }
 
-/* ::placeholder{
-    padding-left: 30px;
-} */
+.input_button{
+    padding-left: 100px;
+    display: flex;
+}
 input {
     padding-left: 30px;
 }
@@ -522,9 +558,8 @@ input {
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+     font-weight: 600;
+    
     text-transform: capitalize;
     width: 210px;
     height: 72px;
@@ -532,6 +567,13 @@ input {
     border-bottom-right-radius: 50px;
     cursor: pointer;
     border: none;
+    
+}
+
+.subs:hover{
+    background-color: black;
+    border: 1px solid white;
+    transition: 1s;
 }
 
 .footer_section {
@@ -617,14 +659,15 @@ a {
     text-decoration: none;
     color: white;
 }
-.Unsubscribe{
+
+.Unsubscribe {
     border: 2px solid black;
     background-color: white;
     color: black;
     padding: 2px 10px;
 }
 
-.Unsubscribe:hover{
+.Unsubscribe:hover {
     border: 2px solid white;
     background-color: aqua;
     color: black;
