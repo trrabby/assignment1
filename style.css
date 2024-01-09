@@ -276,6 +276,7 @@
 
 .smilingimg:hover{
     border: 15px solid rgb(3, 3, 3);
+    border-radius: 40px;
 }
 
 .smilingimg>img {
